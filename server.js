@@ -2,7 +2,7 @@ var express = require("express");
 var bodyParser = require("body-parser");
 var path = require("path");
 
-//var apiRoutes = require("./routing/apiRoutes.js");
+var apiRoutes = require("./routing/apiRoutes.js");
 var htmlRoutes = require("./routing/htmlRoutes.js");
 
 var app = express();
@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
-//apiRoutes(app);
+apiRoutes(app);
 htmlRoutes(app);
 
 app.listen(PORT, function() {
