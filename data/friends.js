@@ -1,39 +1,46 @@
 var friendInfo = [
-    {
-      name: "Tommy Thompson",
-      photo: "https://avatars1.githubusercontent.com/u/17932981?v=3&s=466",
-      scores: [3, 4, 3, 3, 4, 4, 4, 1, 5, 3]
-    },
-    {
-      name: "Number 2",
-      photo:"https://upload.wikimedia.org/wikipedia/en/thumb/e/e5/No_2_APTSWSM.jpg/200px-No_2_APTSWSM.jpg",
-      scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
-    },
-    {
-      name: "The One",
-      photo:"https://s-media-cache-ak0.pinimg.com/564x/dd/31/d2/dd31d2dd156204fcf9b6aa1c54455adb.jpg",
-      scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
-    },
-    {
-      name: "Trinity",
-      photo:"http://vignette3.wikia.nocookie.net/matrix/images/6/67/Trinityfull.jpg/revision/latest?cb=20060803214449",
-      scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
-    },
-    {
-      name: "Dr. Evil",
-      photo:"https://at-cdn-s01.audiotool.com/2012/05/28/documents/ei368KjdlP5qy6gILDLtH9cEAf6H/0/cover256x256-b31436c2a9bc4645b1ad67bc09705cd7.jpg",
-      scores: [5, 4, 4, 4, 4, 3, 2, 1, 5, 5]
-    },
-    {
-      name: "Mia Wallace",
-      photo:"https://s-media-cache-ak0.pinimg.com/originals/a9/01/29/a9012982eea651ee31e21f4ad11fe96b.jpg",
-      scores: [2, 4, 2, 4, 2, 3, 4, 4, 4, 3]
-    },
-    {
-      name: "Princess Leia",
-      photo:"http://images.techtimes.com/data/images/full/168082/princess-leia-organa.jpg?w=600",
-      scores: [5, 4, 5, 4, 5, 3, 3, 3, 2, 4]
-    }
-  ];
-  
-  module.exports = friendInfo;
+  {
+    name: "Thor",
+    photo:
+      "https://i.pinimg.com/originals/24/fc/9a/24fc9a97933cc3870da462e9040f8db8.jpg",
+    scores: [3, 4, 3, 3, 4, 4, 4, 1, 5, 3]
+  },
+  {
+    name: "Hawkeye",
+    photo:
+      "https://television-b26f.kxcdn.com/wp-content/uploads/2016/03/mxdwn_hawkeye-770x470.jpg",
+    scores: [2, 2, 2, 2, 2, 2, 2, 2, 2, 2]
+  },
+  {
+    name: "Gamora",
+    photo:
+      "https://cdn.movieweb.com/img.news.tops/NE183af6ACmg35_1_b/Avengers-Infinity-War-Gamora-Death-Zoe-Saldana-Response.jpg",
+    scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
+  },
+  {
+    name: "Iron Man",
+    photo:
+      "https://cdn.movieweb.com/img.news.tops/NEboBCkt68hgdk_1_b/Iron-Man-Bleeding-Edge-Armor-Infinity-War-Avengers.jpg",
+    scores: [3, 3, 3, 3, 3, 3, 3, 3, 3, 3]
+  },
+  {
+    name: "Black Widow",
+    photo:
+      "https://www.black-leatherjacket.com/image/cache/data/black-widow/avengers-infinity-war-black-widow-vest-900x900.jpg",
+    scores: [5, 4, 4, 4, 4, 3, 2, 1, 5, 5]
+  },
+  {
+    name: "Spider Man",
+    photo:
+      "https://i.pinimg.com/originals/5c/ac/a8/5caca89d2c83066e0fa1e40db9b3fd79.jpg",
+    scores: [2, 4, 2, 4, 2, 3, 4, 4, 4, 3]
+  },
+  {
+    name: "Deadpool",
+    photo:
+      "http://digitalspyuk.cdnds.net/17/02/980x490/landscape-1484222978-deadpool.jpg",
+    scores: [5, 4, 5, 4, 5, 3, 3, 3, 2, 4]
+  }
+];
+
+module.exports = friendInfo;
