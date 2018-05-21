@@ -307,7 +307,7 @@
     function checkIfComplete(callback) {
         var questionsCompleted;
         $('.chosen-select').each(function () {
-            if ($(this).val() == "") {
+            if ($(this).val() === "") {
                 questionsCompleted = false;
             }
         }).promise().done(function () {
